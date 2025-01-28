@@ -1,9 +1,19 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(172, 168, 168);
+    margin: 0;
 }
 
 p{
     align-self: center;
+}
+
+.entete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: darkblue ;
+    padding: 10px;
 }
 
 .logo {
@@ -16,7 +26,12 @@ p{
     justify-content: center;
     align-items: center;
     height: 200px;
+    width: 25%;
     border: 3px solid black;
+    background-color: white;
+}
+table, th, td {
+    border:1px solid black;
 }
 
 .abspunition{
@@ -24,5 +39,17 @@ p{
     justify-content: center;
     align-items: center;
     height: 200px;
+    width: 25%;
     border: 3px solid black;
+    background-color: white;
+}
+
+.rdv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 25%;
+    border: 3px solid black;
+    background-color: white;
 }
